@@ -1,0 +1,180 @@
+/* INICIO PAGINA DESTINOS */
+
+
+h2 {
+    color: #fdca40;
+}
+
+.headerPromo {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background: #eff1ff;
+    
+
+}
+
+.contentpromo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    
+}
+
+.card {
+    background: #eff1ff;
+    box-shadow: 2px 2px 15px rgba(13, 4, 90, 0.349);
+    width:500px;
+    height: 500px;
+    padding-top: 0px;
+    border-radius:0 ;
+}
+
+
+.topCard {
+    height: 8px;
+
+}
+
+.mediaCard {
+    background: url("https://www.opovo.com.br/_midias/jpg/vasti/2016/01-06/04/20160407/beira_mar.jpg") center/cover;
+    height: 600px;
+    width: 100%;
+}
+
+.mediaCard2 {
+    background: url("https://letsimage.s3.amazonaws.com/letsbook/211/destinos/2/1.jpg") center/cover;
+    height: 600px;
+    width: 100%;
+}
+
+.mediaCard3 {
+    background: url("https://www.melhoresdestinos.com.br/wp-content/uploads/2019/08/rio-de-janeiro-capa2019-01.jpg") center/cover;
+    height: 600px;
+    width: 100%;
+}
+
+.mediaCard4 {
+    background: url("https://midia.gruposinos.com.br/_midias/jpg/2021/04/17/88774451_62aa_45e5_a82c_2621a7bd9b0f-19578131.jpeg") center/cover;
+    height: 600px;
+    width: 100%;
+}
+
+.bottomCard {
+    height: 200px;
+    margin: 15px;
+}
+
+.actions {
+    padding: 5px 15px;
+    width: 100px;
+    color: #fff;
+    background: #fdca40;
+    border: 1px solid rgba(68, 118, 255, 0.541);
+    border-radius: 2px;
+
+}
+ .title {
+     font-family:sans-serif;
+     color: #2176ff;
+ }
+
+ .secondText {
+     font-family:sans-serif;
+     color:#33a1fd ;
+ }
+
+ .card2 {
+    background: #3e4fcc;
+    box-shadow: 2px 2px 15px rgba(13, 4, 90, 0.349);
+    width:500px;
+    height: 500px;
+    padding-top: 0px;
+    border-radius:0 ;
+ }
+ /* FIM PAGINA DESTINOS*/
+
+
+ 
+  /* CORPO RESPONSIVO */  
+
+
+.secUm {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+   background-color: #edf6f9;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.divSecUm-um {
+    left: 50%;
+    background-color: #edf6f9;
+    flex: 50%;
+
+
+}
+
+.divSecUm-dois {
+    
+    background-color: #edf6f9;
+    flex: 50%;
+}
+
+@media (max-width:800px) {
+    .secUm {
+        flex-direction: column;
+        height: 600px;
+    }
+}
+
+
+
+.divSecUm-um img {
+    display: inline-flexbox;
+    width: 600px;
+    position: relative;
+
+}
+
+.divSecUm-dois {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.secDois {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    background-color: orange;
+}
+
+.divSecDois-um {
+    left: 50%;
+    background-color: #edf6f9;
+    flex: 50%;
+}
+
+.divSecDois-dois {
+    left: 50%;
+    background-color: #edf6f9;
+    flex: 50%;
+}
+
+@media (max-width:800px) {
+    .secDois {
+        flex-direction: column;
+        height: 600px;
+    }
+}
+/* FIM DO CORPO RESPONSIVO */  

@@ -1,0 +1,27 @@
+/* INICIO DO RODAPÉ */  
+.footerClass {
+    background-color: #32474e;
+    height: 295px;
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.FlexFooter {
+    
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.FlexFooter img {
+    width: 300px;
+    height: 300px;
+}
+
+/* FIM DO RODAPÉ */  

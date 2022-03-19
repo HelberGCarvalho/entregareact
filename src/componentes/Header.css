@@ -1,0 +1,38 @@
+.Body {
+    background: rgb(73, 73, 146);
+  
+    
+}
+
+.headerClass {
+
+   
+    height: 200px;
+    background: rgb(255,232,170);
+    background: linear-gradient(0deg, rgba(255,232,170,1) 32%, rgba(255,187,40,1) 99%);
+    
+    top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.FlexHead {
+
+    height: 200px;
+    width: 455px;
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.FlexHead img {
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
